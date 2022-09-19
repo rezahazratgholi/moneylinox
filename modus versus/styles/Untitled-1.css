@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background-color: #76c7c0;
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    color: #fff;
+}
+header div{
+    padding-top: 30px;
+    overflow: auto;
+    margin-top: 40px;
+}
+header h1{
+    float: left;
+    padding-left: 20px;
+}
+header div span{
+    font-size: 25px;
+}
+header ul{
+    float: right;
+    
+}
+header ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+    transition: all 0.5s linear;
+    margin: 0 5px;
+}
+header ul li:last-child{
+    margin-right: 10px;
+}
+header ul li:hover{
+    background-color: #62a29e;
+    box-shadow: 1px 10px 2px #47817e ;
+}
+/*==============main===================*/
+.container1{
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #f3f3f3 !important;
+}
+img{
+    width: 1200px;
+}
+figure{
+    position: relative;
+}
+figure figcaption div{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+.figc1{
+background-color: #e8645a;
+font-size: 30px;
+top: 190px;
+left: 320px;
+padding:10px 40px
+}
+.figc2{
+font-size: 20px;
+background-color: rgba(109, 103, 103, 0.418);
+top: 260px;
+left: 120px;
+padding:20px 40px ;
+}
+.class01{
+    height: 155px;
+    background-color: #ececec;
+    color: #8c9899;
+    margin-top: 45px;
+    padding: 60px 30px;
+    display: inline-block;
+    width: 1200px;
+    overflow: auto;
+}
+.class01 div{
+    float: left;
+}
+.class01 a{
+    float: right;
+    text-decoration: none;
+    background-color: #62a29e;
+    color: #fff;
+    padding: 10px 20px;
+    float: right;
+    transition: all 0.5s;
+}
+.class01 a:hover{
+    background-color: #76c7c0;
+}
+.class02{
+    margin-top: 55px;
+}
+.class02 div{
+    width: 270px;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0px 5px;
+    position: relative;
+}
+.class02 div:first-child{
+    margin-left: 35px;
+}
+.class02 div:last-child{
+    margin-right: 10px;
+}
+.class02 div i{
+    display: block;
+    text-align: center;
+    color: #444444;
+    padding-top: 40px;
+}
+.class02 div h3 , .class02 div p{
+    padding: 10px;
+    color: #444444;
+}
+.class02 div h3{
+    text-align: center;
+    padding-top: 20px;
+    transition: all 0.5s linear;
+}
+.class02 div p{
+    padding-bottom: 40px;
+}
+.class02 a{
+    position: absolute;
+    background-color: #62a29e;
+    color:#fff;
+    bottom: -30px;
+    left: 70px;
+    padding:10px 20px ;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+.class02 div:hover i{
+    color: #e8645a;
+}
+.class02 div:hover a{
+    background-color:#e8645a ;
+}
+.class03{
+    margin-top: 100px;
+    text-align: center;
+}
+.class03 h3{
+    color: #e8645a;
+    padding-bottom: 30px;
+}
+.class03 p{
+    color: #444444;
+    margin-bottom: 30px;
+}
+.img1{
+    margin-left: 300px;
+    width: 600px;
+}
+.class04{
+    overflow: auto;
+    margin-top: 50px;
+    position: relative;
+}
+.class04 div h3 {
+    padding: 10px;
+    color: #444444;
+}
+.class04 div{
+    display: inline-block;
+    width: 270px;
+}
+.class04 ul{
+    padding-left: 10px;
+}
+.class04 div ul li{
+    padding-bottom: 5px;
+    transition: all 0.5s;
+    list-style-position: inside;
+    color: #444444;
+}
+.class04 div ul li:hover{
+    color: #e8645a;
+}
+.class04 div span{
+    color: #e8645a;
+}
+.class041{
+    width: 660px!important;
+    position: absolute;
+    top: 10px;
+    
+    color: #444444;    
+}
+.class042{
+    float: right;
+    clear: right;
+}
+.clas05{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.class05 span{
+    float: left;
+    margin-left: 90px;
+}
+hr{
+    height: 5px;
+    margin-bottom: 20px;
+    width: 800px;
+    float: right;
+    margin-right: 200px;
+    color: #444444;
+    background-color: #444444;
+    margin-top: 10px;
+}
+/*===================foooter===========*/
+footer{
+background-color: #76c7c0;
+color: #fff;
+margin-top: 40px;
+}
+footer div{
+    width: 300px;
+    padding:10px 20px;
+}
+footer div p{
+    padding-top: 20px;
+}
+.call{
+    font-weight: bolder;
+}
